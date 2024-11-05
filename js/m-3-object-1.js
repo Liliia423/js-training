@@ -37,7 +37,7 @@ delete nameL.secondName[1];
 let propKey = 'secondName';
 console.log(nameL[propKey]); //['Pav1', empty, 'Pav3', 'Pav4']*/
 
-const nameL = {
+/*const nameL = {
   firstName: 'Lila',
   secondName: ['Pav1', 'Pav2', 'Pav3'],
 };
@@ -46,4 +46,4 @@ nameL.secondName.push('Pav4');
 delete nameL.secondName[1];
 nameL.secondName.splice(2, 1); //видаляє 1 елемент починаючи з 2 індекса
 let propKey = 'secondName';
-console.log(nameL[propKey]); //['Pav1', empty, 'Pav4']
+console.log(nameL[propKey]); //['Pav1', empty, 'Pav4']*/
